@@ -78,17 +78,17 @@ function redraw(){
     // }
 
 
-    //radius = NOT WORKING
+    //radius 
     //get values of second slider
     radius = parseInt($('#slider2').val());
     console.log('radius: ' + radius);
 
-    // //inOut = NOT WORKING
+    // //inOut
     // //get the value from the form
     inOut = parseInt($('#input2').val());
     console.log('inOut: ' + inOut);
 
-    //envelope = WORKING (by itself)
+    //envelope
     //get values of third slider
     envelope = parseInt($('#slider3').val());
     console.log('envelope: ' + envelope);
