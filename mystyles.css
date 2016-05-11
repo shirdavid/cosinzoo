@@ -1,0 +1,39 @@
+html, body {
+	font-family: Montserrat, Helvetica, sans-serif;
+}
+
+#canvas{
+	margin-bottom:20px;
+}
+
+.slider {
+	border: 1px solid #22DDDD;
+	display:block;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    margin-top:2px;
+    margin-bottom:10px;
+}    
+
+    
+ button {
+ 	font-family: Montserrat, Helvetica, sans-serif;
+ 	color:white;
+ 	text-transform:uppercase;
+ 	display:block;
+ 	margin-top:30px;	
+ 	width: 330px;
+ 	border-radius: 30px;
+ 	border:none;
+ 	padding: 20px;
+ 	background-color: #22DDDD;
+
+ }
+
+button:hover { 
+    background-color: white;
+    color: #22DDDD;
+    border: 1px solid #22DDDD;
+}

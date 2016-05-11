@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Empty project</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+  <script type="text/javascript" src="../rune.js"></script>
+  <script src="rune.noise.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="mystyles.css">
+  <style type="text/css">
+    body {
+      background-color: #EAEAEA;
+    }
+    #canvas svg {
+      
+      background-color: white;
+      box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.06),inset -1px -1px 1px 0 rgba(0, 0, 0, 0.02);
+      border: 1px solid #E2E2E2;
+      border-bottom-color: #CECECE;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="canvas"></div>
+
+  <div id='control'> 
+
+    <label for="slider1">Number of Points</label>
+
+      <div class="slider"><input id="slider1" type="range"  min="4" max="100"/></div>
+
+      <label for="slider2">Radius</label>
+      <div class="slider"><input id="slider2" type="range"  min="10" max="100"/></div>
+
+      <label for="input2">Degree of Pointiness</label>
+      <div class="slider"><input id="input2" type="number" value="40" name="inOut"/></div>
+
+      <label for="slider3">Envelope</label>
+      <div class="slider" ><input id="slider3" type="range"  min="0" max="10" step="0.5" value="10"/></div>
+
+      <button id="save">Save as SVG</button>
+
+   </div>
+
+  
+  
+  <script type="text/javascript" src="sketch.js"></script>
+  <script type="text/javascript" src="svgcrowbar.js"></script>
+</body>
+</html>
